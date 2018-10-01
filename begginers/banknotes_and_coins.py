@@ -16,7 +16,7 @@ print "%d nota(s) de R$ 2.00" % (value/2)
 value %= 2
 
 print "MOEDAS:"
-print "%d moeda(s) de R$ 1.00" %  (value/1)
+print "%d moeda(s) de R$ 1.00" % (value)
 value %= 1
 print "%d moeda(s) de R$ 0.50" % (value/.50)
 value %= .50

@@ -23,4 +23,4 @@ else:
 
 print "Novo salario: %.2f" % new_salary
 print "Reajuste ganho: %.2f" % money_earned
-print "Em percentual: %d %%" %  percentual_increase
+print "Em percentual: %d %%" % percentual_increase
