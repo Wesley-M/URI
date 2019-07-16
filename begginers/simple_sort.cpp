@@ -1,5 +1,4 @@
 #include<iostream>
-#include <sstream>
 
 using namespace std;
 
@@ -9,7 +8,7 @@ int main(){
 
   string old_array = "";
   for (int i = 0; i < 3; i++){
-    old_array += static_cast<ostringstream*>( &(ostringstream() << numbers[i]) )->str() + "\n";
+    old_array += to_string(numbers[i]) + "\n";
   }
 
   for (int i = 0; i < 3; i++){
